@@ -1,0 +1,84 @@
+.rigthJobContainer {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rigthJobContainer h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(35px, 4.8vw, 70px);
+  line-height: 82px;
+  text-align: center;
+  width: 48%;
+  color: #000000;
+}
+
+.rigthJobContainer h1 span {
+  color: #4540db;
+}
+
+.rigthJobContainer h3 {
+  width: 487px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px, 2vw, 30px);
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  transform: rotate(-0.64deg);
+}
+
+.onePlatformContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  background: #f6f7fc;
+}
+
+.onePlatformContainer h1 {
+  width: 240px;
+  padding-top: 70px;
+}
+
+.onePlatformContainer h1 span {
+  color: #4540db;
+}
+
+.cardContainer {
+  font-size: large;
+  display: flex;
+  width: 265px;
+  height: 150px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  align-items: center;
+}
+
+.cardIcon img {
+  height: 60px;
+  width: 60px;
+}
+
+.cardContent {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.allCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.img1 {
+  width: clamp("600px", "83vw", "1200px");
+  height: clamp("250px", "34vw", "500px");
+}

@@ -1,0 +1,103 @@
+.sidebar-container {
+  max-width: 95%;
+  margin: auto;
+}
+.postbtn {
+  background: rgba(69, 64, 219, 0.05);
+  border: 1.5px solid #4540db;
+  border-radius: 19px;
+  height: 121px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 10px auto;
+}
+.postbtn p {
+  font-weight: 600;
+  font-size: clamp(18px, 1.9vw, 28px);
+  margin: 0px;
+  line-height: clamp(24px, 2.1vw, 34px);
+  color: #4540db;
+}
+.postbtn div {
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10px, 1.2vw, 15px);
+  line-height: 18px;
+
+  color: #8c8c8c;
+}
+
+.sideJobCard {
+  text-align: left;
+  padding: 15px 10px;
+  border-bottom: 1px solid #0000003b;
+  margin: 10px;
+  cursor: pointer;
+}
+.sideJobCard-slected {
+  background: #f2f2f2;
+  border-radius: 10px;
+  border-left: 3px solid #4540db;
+}
+
+.sideJobCard h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(8px, 1vw, 12px);
+  line-height: 14px;
+  margin: 0px;
+
+  color: #959595;
+}
+.sideJobCard h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(14px, 1.5vw, 22px);
+  line-height: clamp(16px, 1.3vw, 26px);
+  margin: 5px 0px;
+
+  color: #000000;
+}
+.sideJobCard h2 {
+  font-weight: 500;
+  font-size: clamp(10px, 1.2vw, 16px);
+  line-height: clamp(12px, 1.1vw, 19px);
+  color: #959595;
+}
+.sideJobCard p {
+  font-weight: 500;
+  font-size: clamp(10px, 1.2vw, 16px);
+  line-height: clamp(12px, 1.1vw, 19px);
+  margin: 2px;
+  color: #959595;
+}
+
+.jobfrom-container {
+  max-width: 95%;
+  margin: 20px auto !important;
+  padding: 20px 10px;
+  border: 1px solid #0000001c;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.form-label {
+  font-weight: bold;
+  float: left;
+  padding: 10px;
+}
+.submit-btn {
+  margin: 15px !important;
+}
+.submit-btn button {
+  background: #4540db;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 20px;
+}

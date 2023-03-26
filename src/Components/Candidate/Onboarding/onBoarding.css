@@ -1,0 +1,25 @@
+.onBoardingContainer{
+    max-width: 95%;
+    margin: 30px auto !important ;
+    padding: 40px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.onBoardingLabel{
+    font-weight: bold;
+    float: left;
+    padding: 10px;
+   
+}
+
+.candidateSubmitFormBtn Button{
+    margin-top: 20px;
+    background: #26D7AB;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 20px;
+
+}

@@ -1,0 +1,29 @@
+.onBoardingContainer {
+  max-width: 95%;
+  margin: 30px auto !important ;
+  padding: 40px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.onBoardingLabel {
+  font-weight: bold;
+  float: left;
+  padding: 10px;
+}
+
+.employerBtn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.employerBtn Button {
+  background: #4540db;
+  border-radius: 8px;
+  border: none;
+  padding: 7px 15px;
+  color: #fff;
+}
